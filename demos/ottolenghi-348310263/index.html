@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Ottolenghi Concept Demo</title>
+<style>
+  body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#fafafa;color:#333;}
+  .top-banner{background:#222;color:#fff;text-align:center;padding:5px 0;font-size:0.9rem;}
+  header{background:linear-gradient(135deg,#ff7e5f,#feb47b);color:#fff;padding:60px 20px;text-align:center;}
+  header h1{margin:0;font-size:3rem;}
+  header p{font-size:1.2rem;margin-top:10px;}
+  nav{display:flex;justify-content:center;gap:30px;margin:20px 0;}
+  nav a{color:#fff;text-decoration:none;font-weight:bold;}
+  section{padding:40px 20px;max-width:1200px;margin:auto;}
+  .services{display:flex;flex-wrap:wrap;gap:20px;}
+  .service{background:#fff;border-radius:8px;box-shadow:0 4px 8px rgba(0,0,0,0.1);flex:1 1 calc(33% - 20px);padding:20px;text-align:center;}
+  .service h3{margin-top:0;}
+  .about{display:flex;flex-wrap:wrap;gap:20px;align-items:center;}
+  .about img{flex:1 1 200px;border-radius:8px;object-fit:cover;height:200px;}
+  .about .text{flex:2 1 300px;}
+  .menu{display:flex;flex-wrap:wrap;gap:20px;}
+  .menu-category{flex:1 1 200px;background:#fff;border-radius:8px;box-shadow:0 4px 8px rgba(0,0,0,0.1);padding:15px;}
+  .menu-category h4{margin-top:0;}
+  .menu-category ul{padding-left:20px;}
+  .menu-category li{margin-bottom:8px;}
+  .menu-category li span{float:right;color:#666;}
+  .contact{background:#222;color:#fff;text-align:center;padding:30px 20px;border-radius:8px;}
+  .contact a{background:#ff7e5f;color:#fff;padding:10px 20px;border:none;border-radius:5px;text-decoration:none;font-size:1rem;}
+  footer{background:#333;color:#aaa;text-align:center;padding:20px;font-size:0.9rem;}
+  @media(max-width:768px){
+    .services{flex-direction:column;}
+    .about{flex-direction:column;}
+    .menu-category{flex:1 1 100%;}
+  }
+</style>
+</head>
+<body>
+<div class="top-banner">Concept Demo - not the official website</div>
+<header>
+  <h1>Ottolenghi 🍽️</h1>
+  <p>Taste the world on a plate</p>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#menu">Menu</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="service">🍴 Dine‑in</div>
+    <div class="service">🥡 Takeaway</div>
+    <div class="service">🎉 Catering</div>
+  </div>
+</section>
+
+<section id="menu">
+  <h2>Menu</h2>
+  <div class="menu">
+    <div class="menu-category">
+      <h4>Breakfast</h4>
+      <ul>
+        <li>Avocado toast <span>Price: shown here</span></li>
+        <li>Scrambled eggs <span>Price: shown here</span></li>
+      </ul>
+    </div>
+    <div class="menu-category">
+      <h4>Lunch</h4>
+      <ul>
+        <li>Quinoa salad <span>Price: shown here</span></li>
+        <li>Falafel wrap <span>Price: shown here</span></li>
+      </ul>
+    </div>
+    <div class="menu-category">
+      <h4>Dinner</h4>
+      <ul>
+        <li>Roasted lamb <span>Price: shown here</span></li>
+        <li>Vegetable tagine <span>Price: shown here</span></li>
+      </ul>
+    </div>
+    <div class="menu-category">
+      <h4>Seasonal Specials</h4>
+      <ul>
+        <li>Spring asparagus risotto <span>Price: shown here</span></li>
+        <li>Autumn pumpkin soup <span>Price: shown here</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <div class="about">
+    <img src="https://via.placeholder.com/400x300" alt="Restaurant interior">
+    <div class="text">
+      <p>Ottolenghi brings a vibrant blend of flavors from around the world to London. Our commitment to fresh, seasonal ingredients ensures every dish is a culinary journey. Explore our menu and experience a dining adventure like no other.</p>
+      <p>Location: shown here | Opening hours: shown here | Reservations: shown here</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Get in Touch</h2>
+  <p>We’d love to hear from you.</p>
+  <a href="#">Contact us</a>
+</section>
+
+<footer>
+  <p>© 2026 Ottolenghi – All rights reserved</p>
+</footer>
+</body>
+</html>
